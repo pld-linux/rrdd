@@ -8,7 +8,7 @@ Group:		Applications/Databases
 Source0:	http://duch.mimuw.edu.pl/~hunter/%{name}-%{version}.tar.gz
 # Source0-md5:	1b5cea5ba49c1deb6062006ece4e4ef5
 URL:		http://phk.freebsd.dk/rrdd/
-BuildRequires:	rrdtool-devel
+BuildRequires:	rrdtool-devel >= 1.2.10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
