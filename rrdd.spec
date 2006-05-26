@@ -46,7 +46,7 @@ Group:		Applications/Databases
 %description client
 This is client package.
 
-%description -l pl client
+%description client -l pl
 To jest pakiet z klientem.
 
 %prep
