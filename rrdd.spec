@@ -1,5 +1,5 @@
 Summary:	Send RRD update data over UDP
-Summary(pl.UTF-8):   Wysyłanie aktualizacji RRD po UDP
+Summary(pl.UTF-8):	Wysyłanie aktualizacji RRD po UDP
 Name:		rrdd
 Version:	20050213
 Release:	0
@@ -40,7 +40,7 @@ Ten pakiet zawiera serwer.
 
 %package client
 Summary:	Send RRD update data over UDP
-Summary(pl.UTF-8):   Wysyłanie aktualizacji RRD po UDP
+Summary(pl.UTF-8):	Wysyłanie aktualizacji RRD po UDP
 Group:		Applications/Databases
 
 %description client
