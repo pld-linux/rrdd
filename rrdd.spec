@@ -1,5 +1,5 @@
 Summary:	Send RRD update data over UDP
-Summary(pl):	Wysy³anie aktualizacji RRD po UDP
+Summary(pl.UTF-8):   WysyÅ‚anie aktualizacji RRD po UDP
 Name:		rrdd
 Version:	20050213
 Release:	0
@@ -25,28 +25,28 @@ it off to the server.
 
 This is server package.
 
-%description -l pl
-Serwer to ma³y program w C odbieraj±cy datagramy UDP z poleceniami
-RRDupdate i, je¶li wygl±daj± one poprawnie, próbuj±cy uaktualniaæ bazê
-RRD. Serwer dzia³a tylko na istniej±cych plikach w bie¿±cym katalogu,
-przez co nie powinno byæ problemów z bezpieczeñstwem w przypadku
-utworzenia dedykowanego katalogu do przechowywania plików .rrd.
+%description -l pl.UTF-8
+Serwer to maÅ‚y program w C odbierajÄ…cy datagramy UDP z poleceniami
+RRDupdate i, jeÅ›li wyglÄ…dajÄ… one poprawnie, prÃ³bujÄ…cy uaktualniaÄ‡ bazÄ™
+RRD. Serwer dziaÅ‚a tylko na istniejÄ…cych plikach w bieÅ¼Ä…cym katalogu,
+przez co nie powinno byÄ‡ problemÃ³w z bezpieczeÅ„stwem w przypadku
+utworzenia dedykowanego katalogu do przechowywania plikÃ³w .rrd.
 
-Klient mo¿e byæ u¿ywany jako funkcja C lub jako program czytaj±cy ze
-standardowego wej¶cia linie "rrdtool -" (przy czym akceptuje on tylko
-linie "update"), pakuj±cy je w pakiet UDP i wysy³aj±cy do serwera.
+Klient moÅ¼e byÄ‡ uÅ¼ywany jako funkcja C lub jako program czytajÄ…cy ze
+standardowego wejÅ›cia linie "rrdtool -" (przy czym akceptuje on tylko
+linie "update"), pakujÄ…cy je w pakiet UDP i wysyÅ‚ajÄ…cy do serwera.
 
 Ten pakiet zawiera serwer.
 
 %package client
 Summary:	Send RRD update data over UDP
-Summary(pl):	Wysy³anie aktualizacji RRD po UDP
+Summary(pl.UTF-8):   WysyÅ‚anie aktualizacji RRD po UDP
 Group:		Applications/Databases
 
 %description client
 This is client package.
 
-%description client -l pl
+%description client -l pl.UTF-8
 To jest pakiet z klientem.
 
 %prep
